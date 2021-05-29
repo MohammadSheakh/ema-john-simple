@@ -1,23 +1,23 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Shop from './components/Shop/Shop';
 
+
+
+// This is APP Component 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div >
+      {/* <Header></Header> */}
+      <Header/>
+      <Shop/>  
+      {/* control + Space Bar er maddhome import korlam */}
+      {/* auto import Extension thakle .. <Shop likhe tab dileo auto import hoye jabe  */}
+
+      {/* ekhon kaj hocche fake data gula load kora   Shop.js er moddhe kaj korbo ..*/}
+
+      
     </div>
   );
 }
